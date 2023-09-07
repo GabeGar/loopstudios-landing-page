@@ -35,3 +35,11 @@
         box-sizing: border-box;
     }
 }
+
+@layer utilities {
+    .mobile-img-container {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
