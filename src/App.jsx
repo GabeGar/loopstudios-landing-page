@@ -1,17 +1,28 @@
+import { useEffect, useState } from "react";
+
 import logo from "./assets/images/icons/logo.svg";
 import hamburgerMenu from "./assets/images/icons/icon-hamburger.svg";
 import facebook from "./assets/images/icons/icon-facebook.svg";
 import twitter from "./assets/images/icons/icon-twitter.svg";
 import pinterest from "./assets/images/icons/icon-pinterest.svg";
 import instagram from "./assets/images/icons/icon-instagram.svg";
+import MobileModal from "./components/MobileNavModal";
 
 const App = () => {
+    const [modalOpen, setModalOpen] = useState(false);
+
     return (
         <div className="min-h-screen">
+            {modalOpen && (
+                <MobileModal
+                    modalOpen={modalOpen}
+                    setModalOpen={setModalOpen}
+                />
+            )}
             <header>
                 <div className="grid bg-mHero min-h-screen bg-no-repeat bg-center bg-cover p-6">
                     <nav>
-                        <ul className=" flex justify-between items-center">
+                        <ul className="flex justify-between items-center pt-6">
                             <li>
                                 <img
                                     className="max-h-[1.75rem]"
@@ -20,12 +31,12 @@ const App = () => {
                                 />
                             </li>
                             <li>
-                                <a href="#">
+                                <button onClick={() => setModalOpen(true)}>
                                     <img
                                         src={hamburgerMenu}
                                         alt="navigation menu icon"
                                     />
-                                </a>
+                                </button>
                             </li>
                         </ul>
                     </nav>
@@ -159,7 +170,7 @@ const App = () => {
                 </section>
 
                 <section>
-                    <div className="pt-[3.25rem] flex justify-center gap-5">
+                    <div className="pt-[3.25rem] flex justify-center items-center gap-5">
                         <a href="#" title="Share via facebook">
                             <img src={facebook} alt="Facebook logo" />
                         </a>
