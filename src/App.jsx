@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import logo from "./assets/images/icons/logo.svg";
 import hamburgerMenu from "./assets/images/icons/icon-hamburger.svg";
@@ -170,20 +170,34 @@ const App = () => {
                 </section>
 
                 <section>
-                    <div className="pt-[3.25rem] flex justify-center items-center gap-5">
-                        <a href="#" title="Share via facebook">
-                            <img src={facebook} alt="Facebook logo" />
-                        </a>
-                        <a href="#" title="To twitter">
-                            <img src={twitter} alt="Share via twitter" />
-                        </a>
-                        <a href="#" title="To pinterest">
-                            <img src={pinterest} alt="Share via pinterest" />
-                        </a>
-                        <a href="#" title="To Instagram">
-                            <img src={instagram} alt="Share via instagram" />
-                        </a>
-                    </div>
+                    <ul className="flex justify-center items-center gap-5 pt-[3.25rem]">
+                        <li>
+                            <a href="#" title="Share via facebook">
+                                <img src={facebook} alt="Facebook logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="To twitter">
+                                <img src={twitter} alt="Share via twitter" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="To pinterest">
+                                <img
+                                    src={pinterest}
+                                    alt="Share via pinterest"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="To Instagram">
+                                <img
+                                    src={instagram}
+                                    alt="Share via instagram"
+                                />
+                            </a>
+                        </li>
+                    </ul>
 
                     <p className="pt-4 text-center font-alata text-primary-dark-gray">
                         © 2023 Loopstudios. All rights reversed
