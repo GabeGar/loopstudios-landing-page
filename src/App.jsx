@@ -51,7 +51,7 @@ const App = () => {
 
             <main className="p-6">
                 <section className="flex flex-col items-center gap-4 text-center">
-                    <div className="max-h-[50dvh] w-[100%] bg-mInteractive bg-no-repeat bg-center bg-contain"></div>
+                    <div className="min-h-[50dvh] w-[100%] bg-mInteractive bg-no-repeat bg-center bg-contain"></div>
                     <h2 className="text-primary-black text-[2rem] leading-10 font-josefinSans uppercase">
                         The leader in interactive vr
                     </h2>
