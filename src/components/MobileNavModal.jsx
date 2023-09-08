@@ -5,7 +5,7 @@ import logo from "../assets/images/icons/logo.svg";
 import close from "../assets/images/icons/icon-close.svg";
 
 const MobileModal = ({ modalOpen, setModalOpen }) => {
-    // * Prevents bg scrolling, when overlay is on screen
+    // * Prevents bg scrolling, when overlay is on rendered
     useEffect(() => {
         const html = document.querySelector("html");
         html.classList.add("overflow-hidden");
