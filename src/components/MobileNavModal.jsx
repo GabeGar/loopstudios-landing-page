@@ -35,19 +35,19 @@ const MobileModal = ({ modalOpen, setModalOpen }) => {
                     <nav>
                         <ul className="flex flex-col gap-4 font-josefinSans text-[1.75rem] uppercase ">
                             <li onClick={handleModalClose}>
-                                <a href="#">About</a>
+                                <a href="#About">About</a>
                             </li>
                             <li onClick={handleModalClose}>
-                                <a href="#">Careers</a>
+                                <a href="#Careers">Careers</a>
                             </li>
                             <li onClick={handleModalClose}>
-                                <a href="#">Events</a>
+                                <a href="#Events">Events</a>
                             </li>
                             <li onClick={handleModalClose}>
-                                <a href="#">Products</a>
+                                <a href="#Products">Products</a>
                             </li>
                             <li onClick={handleModalClose}>
-                                <a href="#">Support</a>
+                                <a href="#Support">Support</a>
                             </li>
                         </ul>
                     </nav>
