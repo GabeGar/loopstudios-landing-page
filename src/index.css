@@ -46,12 +46,17 @@
     .mobile-creations-img-text {
         display: flex;
         align-items: flex-end;
-        line-height: 1.7rem;
+        line-height: 1.65rem;
         height: 100%;
         width: 50%;
         padding: 1.5rem;
-        font-size: 1.5rem;
+        font-size: 1.55rem;
         text-transform: uppercase;
+        background-image: linear-gradient(to right, hsl(var(--black)/.75), hsl(var(--very-dark-gray)/0));
+    }
+
+    a>div>p:has(.mobile-creations-img-text:nth-of-type(4)) {
+        width: 30%;
     }
 
     .modal-overlay {
