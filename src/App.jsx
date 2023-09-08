@@ -69,72 +69,83 @@ const App = () => {
                         Our Creations
                     </h2>
 
-                    <div className="grid gap-7 font-josefinSans text-primary-white">
-                        <a href="#" title="Deep Earth project">
-                            <div className="h-[20dvh] w-full bg-mDeepEarth mobile-img-container">
-                                <p className="mobile-creations-img-text">
-                                    Deep Earth
-                                </p>
-                            </div>
-                        </a>
+                    <div className="font-josefinSans text-primary-white">
+                        <ul className="grid gap-7">
+                            <li>
+                                <a href="#" title="Deep earth project">
+                                    <div className="h-[20dvh] bg-mDeepEarth mobile-img-container">
+                                        <p className="mobile-creations-img-text">
+                                            Deep Earth
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Night arcade project">
+                                    <div className="h-[20dvh] bg-mNightArcade mobile-img-container">
+                                        <p className="mobile-creations-img-text">
+                                            Night Arcade
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Soccer team project">
+                                    <div className="h-[20dvh] bg-mSoccerTeam mobile-img-container">
+                                        <p className="mobile-creations-img-text">
+                                            Soccer Team VR
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="The grid project">
+                                    <div className="h-[20dvh] bg-mGrid mobile-img-container">
+                                        <p className="mobile-creations-img-text">
+                                            The Grid
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="From up above vr project">
+                                    <div className="h-[20dvh] bg-mFromAbove mobile-img-container">
+                                        <p className="mobile-creations-img-text">
+                                            From Up Above VR
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Pocket borealis project">
+                                    <div className="h-[20dvh] bg-mPocketBorealis mobile-img-container">
+                                        <p className="mobile-creations-img-text">
+                                            Pocket Borealis
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="The curiosity project">
+                                    <div className="h-[20dvh] bg-mCuriosity mobile-img-container">
+                                        <p className="mobile-creations-img-text">
+                                            The Curiosity
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Make it fisheye project">
+                                    <div className="h-[20dvh] bg-mFishEye mobile-img-container">
+                                        <p className="mobile-creations-img-text">
+                                            Make It Fisheye
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
 
-                        <a href="#" title="Night arcade project">
-                            <div className="h-[20dvh] w-full bg-mNightArcade mobile-img-container">
-                                <p className="mobile-creations-img-text">
-                                    Night Arcade
-                                </p>
-                            </div>
-                        </a>
-
-                        <a href="#" title="Soccer team project">
-                            <div className="h-[20dvh] w-full bg-mSoccerTeam mobile-img-container">
-                                <p className="mobile-creations-img-text">
-                                    Soccer Team VR
-                                </p>
-                            </div>
-                        </a>
-
-                        <a href="#" title="Grid game project">
-                            <div className="h-[20dvh] w-full bg-mGrid mobile-img-container">
-                                <p className="mobile-creations-img-text">
-                                    The Grid
-                                </p>
-                            </div>
-                        </a>
-
-                        <a href="#" title="From up above vr project">
-                            <div className="h-[20dvh] w-full bg-mFromAbove mobile-img-container">
-                                <p className="mobile-creations-img-text">
-                                    From Up Above VR
-                                </p>
-                            </div>
-                        </a>
-
-                        <a href="#" title="Pocket borealis project">
-                            <div className="h-[20dvh] w-full bg-mPocketBorealis mobile-img-container">
-                                <p className="mobile-creations-img-text">
-                                    Pocket Borealis
-                                </p>
-                            </div>
-                        </a>
-
-                        <a href="#" title="The Curiosity project">
-                            <div className="h-[20dvh] w-full bg-mCuriosity mobile-img-container">
-                                <p className="mobile-creations-img-text">
-                                    The Curiosity
-                                </p>
-                            </div>
-                        </a>
-
-                        <a href="#" title="Make it fisheye project">
-                            <div className="h-[20dvh] w-full bg-mFishEye mobile-img-container">
-                                <p className="mobile-creations-img-text">
-                                    Make It Fisheye
-                                </p>
-                            </div>
-                        </a>
-
-                        <div className="py-2 mb-[5rem] font-alata flex justify-center text-primary-black">
+                        <div className="pt-8 mb-[5rem] font-alata flex justify-center text-primary-black">
                             <button className="px-10 py-2 justify-center tracking-[.3rem] border-[.15rem] border-solid border-primary-dark-gray text-primary-black uppercase">
                                 See All
                             </button>
@@ -144,29 +155,43 @@ const App = () => {
             </main>
 
             <footer className="py-[4.5rem] bg-primary-black">
-                <section className="flex flex-col items-center gap-6 font-alata text-primary-white">
-                    <a href="#" title="Homepage">
-                        <img
-                            className="max-h-[1.75rem] mb-[1rem]"
-                            src={logo}
-                            alt="loopstudios logo"
-                        />
-                    </a>
-                    <a href="#" title="About page">
-                        About
-                    </a>
-                    <a href="#" title="Careers page">
-                        Careers
-                    </a>
-                    <a href="#" title="Events page">
-                        Events
-                    </a>
-                    <a href="#" title="Products page">
-                        Products
-                    </a>
-                    <a href="#" title="Support page">
-                        Support
-                    </a>
+                <section className="flex flex-col items-center  font-alata text-primary-white">
+                    <ul className="flex flex-col gap-6 items-center">
+                        <li>
+                            <a href="#" title="Homepage">
+                                <img
+                                    className="max-h-[1.75rem] mb-[1rem]"
+                                    src={logo}
+                                    alt="loopstudios logo"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="About page">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Careers page">
+                                Careers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Events page">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Products page">
+                                Products
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Support page">
+                                Support
+                            </a>
+                        </li>
+                    </ul>
                 </section>
 
                 <section>
