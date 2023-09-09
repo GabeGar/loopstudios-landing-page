@@ -1,8 +1,11 @@
 import { useEffect } from "react";
 import { createPortal } from "react-dom";
 
-import logo from "../assets/images/icons/logo.svg";
-import close from "../assets/images/icons/icon-close.svg";
+import logo from "../../../assets/images/icons/logo.svg";
+import close from "../../../assets/images/icons/icon-close.svg";
+
+import Button from "../../UI/Button";
+import NavLinks from "../../UI/NavLinks";
 
 const MobileModal = ({ modalOpen, setModalOpen }) => {
     // * Prevents bg scrolling, when overlay is on rendered
@@ -26,29 +29,16 @@ const MobileModal = ({ modalOpen, setModalOpen }) => {
                         src={logo}
                         alt="Loopstudios logo"
                     />
-                    <button onClick={handleModalClose}>
+
+                    <Button onClick={handleModalClose}>
                         <img src={close} alt="Close the menu" />
-                    </button>
+                    </Button>
                 </section>
 
                 <section className="mt-[45%]">
                     <nav>
                         <ul className="flex flex-col gap-4 font-josefinSans text-[1.75rem] uppercase ">
-                            <li onClick={handleModalClose}>
-                                <a href="#About">About</a>
-                            </li>
-                            <li onClick={handleModalClose}>
-                                <a href="#Careers">Careers</a>
-                            </li>
-                            <li onClick={handleModalClose}>
-                                <a href="#Events">Events</a>
-                            </li>
-                            <li onClick={handleModalClose}>
-                                <a href="#Products">Products</a>
-                            </li>
-                            <li onClick={handleModalClose}>
-                                <a href="#Support">Support</a>
-                            </li>
+                            <NavLinks onClick={handleModalClose} />
                         </ul>
                     </nav>
                 </section>
