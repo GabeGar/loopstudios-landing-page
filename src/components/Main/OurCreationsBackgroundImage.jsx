@@ -4,6 +4,7 @@ const OurCreationsBackgroundImage = ({ classes, children }) => {
             className={`md:min-h-[60dvh] h-[20dvh] mobile-img-container ${
                 classes ? classes : ""
             }`}
+            id="main-img-container"
         >
             {children}
         </div>

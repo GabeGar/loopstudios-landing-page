@@ -14,7 +14,9 @@ const NavLinks = ({ onClick }) => {
                 </Link>
             </li>
             <li onClick={onClick} title={"Events Page"}>
-                <Link href={"#Events"}>Events</Link>
+                <Link href={"#Events"} title={"Events Page"}>
+                    Events
+                </Link>
             </li>
             <li onClick={onClick}>
                 <Link href={"#Products"} title={"Products Page"}>

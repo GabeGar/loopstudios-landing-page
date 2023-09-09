@@ -37,7 +37,11 @@ const Main = () => {
                 <div className="font-josefinSans text-primary-white">
                     <ul className="md:grid-cols-4 grid gap-7">
                         <li>
-                            <Link href="#DeepEarth" title="Deep earth project">
+                            <Link
+                                id={"main-img"}
+                                href="#DeepEarth"
+                                title="Deep earth project"
+                            >
                                 <OurCreationsBackgroundImage
                                     classes={"md:bg-dDeepEarth bg-mDeepEarth"}
                                 >
@@ -47,6 +51,7 @@ const Main = () => {
                         </li>
                         <li>
                             <Link
+                                id={"main-img"}
                                 href="#NightArcade"
                                 title="Night arcade project"
                             >
@@ -61,6 +66,7 @@ const Main = () => {
                         </li>
                         <li>
                             <Link
+                                id={"main-img"}
                                 href="#SoccerTeamVR"
                                 title="Soccer team project"
                             >
@@ -72,17 +78,21 @@ const Main = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="#TheGrid" title="The grid project">
+                            <Link
+                                id={"main-img"}
+                                href="#TheGrid"
+                                title="The grid project"
+                            >
                                 <OurCreationsBackgroundImage
                                     classes={"md:bg-dGrid bg-mGrid"}
                                 >
                                     <BgImgPara>The Grid</BgImgPara>
                                 </OurCreationsBackgroundImage>
-                                The Grid
                             </Link>
                         </li>
                         <li>
                             <Link
+                                id={"main-img"}
                                 href="#FromUpAboveVR"
                                 title="From up above vr project"
                             >
@@ -91,11 +101,11 @@ const Main = () => {
                                 >
                                     <BgImgPara>From Up Above VR</BgImgPara>
                                 </OurCreationsBackgroundImage>
-                                From Up Above VR
                             </Link>
                         </li>
                         <li>
                             <Link
+                                id={"main-img"}
                                 href="#PocketBorealis"
                                 title="Pocket borealis project"
                             >
@@ -110,6 +120,7 @@ const Main = () => {
                         </li>
                         <li>
                             <Link
+                                id={"main-img"}
                                 href="#TheCuriosity"
                                 title="The curiosity project"
                             >
@@ -122,6 +133,7 @@ const Main = () => {
                         </li>
                         <li>
                             <Link
+                                id={"main-img"}
                                 href="#MakeItFisheye"
                                 title="Make it fisheye project"
                             >
