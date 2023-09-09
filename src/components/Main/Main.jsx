@@ -134,7 +134,7 @@ const Main = () => {
                         </li>
                     </ul>
 
-                    <div className="md:mb-0 pt-8 mb-[5rem] font-alata flex justify-center text-primary-black">
+                    <div className="md:hidden md:aria-hidden md:mb-0 pt-8 mb-[5rem] font-alata flex justify-center text-primary-black">
                         <Button
                             classes={
                                 "md:hidden md:aria-hidden md:pointer-events-none"
