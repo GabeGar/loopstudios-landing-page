@@ -30,9 +30,11 @@ const Header = ({ setModalOpen }) => {
                                 />
                             </Button>
                         </li>
-                        <ul className="imd:hidden imd:pointer-events-none imd:aria-hidden flex justify-between min-w-[35%] gap-2 font-alata text-primary-white">
-                            <NavLinks />
-                        </ul>
+                        <li className="imd:hidden imd:pointer-events-none imd:aria-hidden">
+                            <ul className="imd:hidden min-w-[30dvw] imd:pointer-events-none imd:aria-hidden flex justify-evenly gap-2 font-alata text-primary-white">
+                                <NavLinks />
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
 
