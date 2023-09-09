@@ -38,7 +38,7 @@ const Main = () => {
                     <ul className="md:grid-cols-4 grid gap-7">
                         <li>
                             <Link
-                                id={"main-img"}
+                                classes={"main-img"}
                                 href="#DeepEarth"
                                 title="Deep earth project"
                             >
@@ -51,7 +51,7 @@ const Main = () => {
                         </li>
                         <li>
                             <Link
-                                id={"main-img"}
+                                classes={"main-img"}
                                 href="#NightArcade"
                                 title="Night arcade project"
                             >
@@ -66,7 +66,7 @@ const Main = () => {
                         </li>
                         <li>
                             <Link
-                                id={"main-img"}
+                                classes={"main-img"}
                                 href="#SoccerTeamVR"
                                 title="Soccer team project"
                             >
@@ -79,7 +79,7 @@ const Main = () => {
                         </li>
                         <li>
                             <Link
-                                id={"main-img"}
+                                classes={"main-img"}
                                 href="#TheGrid"
                                 title="The grid project"
                             >
@@ -92,7 +92,7 @@ const Main = () => {
                         </li>
                         <li>
                             <Link
-                                id={"main-img"}
+                                classes={"main-img"}
                                 href="#FromUpAboveVR"
                                 title="From up above vr project"
                             >
@@ -105,7 +105,7 @@ const Main = () => {
                         </li>
                         <li>
                             <Link
-                                id={"main-img"}
+                                classes={"main-img"}
                                 href="#PocketBorealis"
                                 title="Pocket borealis project"
                             >
@@ -120,7 +120,7 @@ const Main = () => {
                         </li>
                         <li>
                             <Link
-                                id={"main-img"}
+                                classes={"main-img"}
                                 href="#TheCuriosity"
                                 title="The curiosity project"
                             >
@@ -133,7 +133,7 @@ const Main = () => {
                         </li>
                         <li>
                             <Link
-                                id={"main-img"}
+                                classes={"main-img"}
                                 href="#MakeItFisheye"
                                 title="Make it fisheye project"
                             >

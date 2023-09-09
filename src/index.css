@@ -78,12 +78,12 @@
         overflow: hidden;
     }
 
-    a:not(#main-img),
+    a:not(.main-img),
     footer a img {
         position: relative;
     }
 
-    a:not(#main-img)::before {
+    a:not(.main-img)::before {
         content: "";
         position: absolute;
         display: block;
@@ -96,7 +96,7 @@
         transition: transform 200ms ease;
     }
 
-    div#main-img-container>p {
+    div.main-img-container>p {
         transition: all ease 150ms;
     }
 
@@ -108,11 +108,11 @@
             transition: color, background-color ease 200ms;
         }
 
-        a:not(#main-img):hover::before {
+        a:not(.main-img):hover::before {
             transform: scaleX(1);
         }
 
-        div#main-img-container>p:hover {
+        div.main-img-container>p:hover {
             color: hsl(var(--black));
             background-color: hsl(var(--white)/.7);
         }
