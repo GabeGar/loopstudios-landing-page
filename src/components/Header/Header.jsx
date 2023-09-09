@@ -23,7 +23,7 @@ const Header = ({ setModalOpen }) => {
                             />
                         </li>
                         <li className="md:hidden md:pointer-events-none">
-                            <Button onClick={handleOpenModal}>
+                            <Button onClick={handleOpenModal} id={"burger"}>
                                 <img
                                     src={hamburgerMenu}
                                     alt="navigation menu icon"

@@ -1,11 +1,12 @@
-const Button = ({ classes, onClick, children }) => {
+const Button = ({ classes, onClick, id, children }) => {
+    const allClasses = `${classes} px-10 py-2 tracking-[.3rem] ${
+        id === "burger" || id === "modalClose"
+            ? ""
+            : "border-[.15rem] border-solid border-primary-dark-gray"
+    }`;
+
     return (
-        <button
-            className={`px-10 py-2 justify-center tracking-[.3rem] border-[.15rem] border-solid border-primary-dark-gray text-primary-black uppercase ${
-                classes ? classes : ""
-            }`}
-            onClick={onClick ? onClick : null}
-        >
+        <button className={allClasses} onClick={onClick ? onClick : null}>
             {children}
         </button>
     );

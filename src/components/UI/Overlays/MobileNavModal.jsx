@@ -30,7 +30,7 @@ const MobileModal = ({ modalOpen, setModalOpen }) => {
                         alt="Loopstudios logo"
                     />
 
-                    <Button onClick={handleModalClose}>
+                    <Button onClick={handleModalClose} id={"modalClose"}>
                         <img src={close} alt="Close the menu" />
                     </Button>
                 </section>
